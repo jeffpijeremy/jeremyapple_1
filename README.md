@@ -1,6 +1,6 @@
 # Maplestory GoldenApple
 > 20220209 發想：看到這檔期的蘋果血流成河後，加上我也沒錢抽，突然看到巴哈有位大大也做了一個 蘋果模擬器應用程式，於是想說不然我也試試看做一個 網頁版的 好惹～
->
+>   20220706 我增加個Input框給人玩玩 source https://github.com/AndyWang505/Maplestory-GoldenApple
 > [巴哈姆特討論區](https://forum.gamer.com.tw/C.php?bsn=7650&snA=1019765)
 ## Screenshot
 ![](https://i.imgur.com/ljWz7cJ.jpg)
