@@ -1,4 +1,5 @@
 //element
+const RockProbability = document.getElementById("RockProbability")
 const buyBtn = document.getElementById("buyBtn"),
     goldboxBtn = document.getElementById("goldboxBtn"),
     openBtn = document.getElementById("openBtn"),
@@ -172,7 +173,7 @@ function prizeDraw(){
     count += 1;
     //100.00%
     let probability = Math.round(Math.random()*10000);
-    if(probability <= 6){
+    if(probability <= RockProbability){
         //輪迴碑石0.06%
         frenzyTotem += 1;
         // console.log("最後獎勵為：" + superbigPrize.name);
