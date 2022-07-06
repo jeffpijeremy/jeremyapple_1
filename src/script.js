@@ -249,7 +249,7 @@ openboxBtn.addEventListener("click", () => {
         alert("幸運的金色寶箱數量不足，請確認數量是否足夠。");
     }else{
         let probability = Math.round(Math.random()*100);
-        let GoldenRockProbability = document.getElementById("GoldenRockProbability")
+        let GoldenRockProbability = document.getElementById("GoldenRockProbability").value
         console.log(GoldenRockProbability)
         if(probability <= GoldenRockProbability){
             //輪迴5%
