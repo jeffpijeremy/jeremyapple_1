@@ -249,7 +249,8 @@ openboxBtn.addEventListener("click", () => {
         alert("幸運的金色寶箱數量不足，請確認數量是否足夠。");
     }else{
         let probability = Math.round(Math.random()*100);
-        if(probability <= 5){
+        let GoldenRockProbability = document.getElementById("GoldenRockProbability")
+        if(probability <= GoldenRockProbability){
             //輪迴5%
             frenzyTotem += 1;
             // console.log("寶箱獎勵為：" + superbigPrize.name);
