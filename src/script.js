@@ -1,5 +1,5 @@
 //element
-const RockProbability = document.getElementById("RockProbability")
+
 const buyBtn = document.getElementById("buyBtn"),
     goldboxBtn = document.getElementById("goldboxBtn"),
     openBtn = document.getElementById("openBtn"),
@@ -168,6 +168,7 @@ openBtn.addEventListener("click", () => {
 });
 //抽蘋果開獎
 function prizeDraw(){
+    const RockProbability = document.getElementById("RockProbability").value
     console.log(RockProbability)
     apples -= 1;
     appleChips += 1;
