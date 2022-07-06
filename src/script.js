@@ -250,6 +250,7 @@ openboxBtn.addEventListener("click", () => {
     }else{
         let probability = Math.round(Math.random()*100);
         let GoldenRockProbability = document.getElementById("GoldenRockProbability")
+        console.log(GoldenRockProbability)
         if(probability <= GoldenRockProbability){
             //輪迴5%
             frenzyTotem += 1;
