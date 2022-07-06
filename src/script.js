@@ -168,6 +168,7 @@ openBtn.addEventListener("click", () => {
 });
 //抽蘋果開獎
 function prizeDraw(){
+    console.log(RockProbability)
     apples -= 1;
     appleChips += 1;
     count += 1;
